@@ -45,7 +45,7 @@ setup(
     include_package_data=True,
     keywords='uniqueSlug',
     name='uniqueSlug',
-    packages=find_packages(include=['uniqueSlug']),
+    packages=find_packages(include=['uniqueSlug'],exclude=['docs','tests']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
